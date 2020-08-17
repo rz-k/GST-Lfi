@@ -27,22 +27,22 @@ $ ./config.sh
 
 #### help
 ```
-$ ./gst-gray -h
+$ gst-lfi -h
 ```
 #### Fast Scan Mod
 ```
-$ ./gst-gray -u https://site.com/index.php?page=
-$ ./gst-gray -u https://site.com/index.php?page= -p 127.0.0.1:9050
+$ gst-lfi -u https://site.com/index.php?page=
+$ gst-lfi -u https://site.com/index.php?page= -p 127.0.0.1:9050
 ```
 #### Scan /proc/Self/environ
 ```
-$ ./gst-gray -u https://site.com/index.php?page= -s 
-$ ./gst-gray -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
+$ gst-lfi -u https://site.com/index.php?page= -s 
+$ gst-lfi -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
 ```
 #### Scan /etc/*
 ```
-$ ./gst-gray -u https://site.com/index.php?page= -e
-$ ./gst-gray -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
+$ gst-lfi -u https://site.com/index.php?page= -e
+$ gst-lfi -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
 ```
 #### Scan /proc/self/fd/*
 ```
@@ -51,7 +51,7 @@ $ ./gst-gray -u https://site.com/index.php?page= -f -p 127.0.0.1:9050
 ```
 #### Deep Scan <> Scan All Path
 ```
-$ ./gst-gray -u https://site.com/index.php?page= -d
-$ ./gst-gray -u https://site.com/index.php?page= -d  -p 127.0.0.1:9050
+$ gst-lfi -u https://site.com/index.php?page= -d
+$ gst-lfi -u https://site.com/index.php?page= -d  -p 127.0.0.1:9050
 ``` 
 
