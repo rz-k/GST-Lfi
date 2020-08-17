@@ -4,7 +4,9 @@ echo -e "\e[93\t\tmWellcom to GST-Lfi Tools"
 pwwd=$(pwd)
 chmod +x GST-Lfi.py
 dis=${pwwd}"/GST-Lfi.py"
-ln -s $dis /usr/bin/gst-lfi
+pa=${pwwd}"/path/"
+sudo ln -s $dis /usr/bin/gst-lfi
+sudo cp -r $pa /usr/bin/
 gst="/usr/bin/gst-lfi"
 if [ -L $gst ];then
 	echo -e "\e[32mConfig Successful ✅\n"
