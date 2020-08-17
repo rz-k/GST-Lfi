@@ -8,7 +8,7 @@ GST-Lfi is a  automatic tool able to scan  Local File Inclusion vulnerabilities 
 ### Coded by [Gray Security Team](https://T.me/S3CURITY_GRAY)
 ### Channel Youtube : [Youtube](https://www.youtube.com/channel/UC_HF1ArLLeLlj7tTUJfbH-Q/vid)
 
-## GST-LFI IMAGE
+##### GST-LFI IMAGE
 ![alt text](http://s11.picofile.com/file/8405935042/gst.png "GST-LFI")
 
 
@@ -44,7 +44,7 @@ $ ./gst-gray -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
 $ ./gst-gray -u https://site.com/index.php?page= -e
 $ ./gst-gray -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
 ```
-# Scan /proc/self/fd/*
+#### Scan /proc/self/fd/*
 ```
 $ ./gst-gray -u https://site.com/index.php?page= -f
 $ ./gst-gray -u https://site.com/index.php?page= -f -p 127.0.0.1:9050
