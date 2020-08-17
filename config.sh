@@ -2,7 +2,7 @@
 
 echo -e "\e[93\t\tmWellcom to GST-Lfi Tools"
 pwwd=$(pwd)
-dis=${pwwd}"/gst-lfi.py"
+dis=${pwwd}"/GST-Lfi.py"
 ln -s $dis /usr/bin/gst-lfi
 gst="/usr/bin/gst-lfi"
 if [ -L $gst ];then
