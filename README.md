@@ -20,6 +20,7 @@ GST-Lfi is a  automatic tool able to scan  Local File Inclusion vulnerabilities 
 ``` 
 $ cd GST-Lfi 
 $ pip3 install -r requirements.txt
+$ chmod +x GST-Lfi.py 
 
 ```
 ## Runing
