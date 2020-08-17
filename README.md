@@ -5,8 +5,8 @@ GST-Lfi is a  automatic tool able to scan  Local File Inclusion vulnerabilities 
 #### S -> Security
 #### T -> Team
 #### Lfi -> Lfi
-## Coded by [Gray Security Team](https://T.me/S3CURITY_GRAY)
-## Channel Youtube : [Youtube](https://www.youtube.com/channel/UC_HF1ArLLeLlj7tTUJfbH-Q/vid)
+### Coded by [Gray Security Team](https://T.me/S3CURITY_GRAY)
+### Channel Youtube : [Youtube](https://www.youtube.com/channel/UC_HF1ArLLeLlj7tTUJfbH-Q/vid)
 
 ## GST-LFI IMAGE
 ![alt text](http://s11.picofile.com/file/8405935042/gst.png "GST-LFI")
@@ -25,21 +25,21 @@ $ ./config.sh
 ```
 ## Runing
 
-# help
+#### help
 ```
 $ ./gst-gray -h
 ```
-# Fast Scan Mod
+#### Fast Scan Mod
 ```
 $ ./gst-gray -u https://site.com/index.php?page=
 $ ./gst-gray -u https://site.com/index.php?page= -p 127.0.0.1:9050
 ```
-# Scan /proc/Self/environ
+#### Scan /proc/Self/environ
 ```
 $ ./gst-gray -u https://site.com/index.php?page= -s 
 $ ./gst-gray -u https://site.com/index.php?page= -s -p 127.0.0.1:9050
 ```
-# Scan /etc/*
+#### Scan /etc/*
 ```
 $ ./gst-gray -u https://site.com/index.php?page= -e
 $ ./gst-gray -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
@@ -49,7 +49,7 @@ $ ./gst-gray -u https://site.com/index.php?page= -e -p 127.0.0.1:9050
 $ ./gst-gray -u https://site.com/index.php?page= -f
 $ ./gst-gray -u https://site.com/index.php?page= -f -p 127.0.0.1:9050
 ```
-# Deep Scan <> Scan All Path
+#### Deep Scan <> Scan All Path
 ```
 $ ./gst-gray -u https://site.com/index.php?page= -d
 $ ./gst-gray -u https://site.com/index.php?page= -d  -p 127.0.0.1:9050
